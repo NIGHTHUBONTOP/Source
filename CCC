@@ -1,8 +1,3 @@
--- CHECK CONFIG [! - IMPORTANT]
-if not getgenv().config or getgenv().config == nil then 
-  game.Players.LocalPlayer:Kick("configconfigconfigconfigconfigconfigconfigconfigconfigconfigconfigconfig")
-  return 0
-end 
 
 --Liblaries
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxereas/UI-Libraries/main/notification_gui_library.lua", true))()
